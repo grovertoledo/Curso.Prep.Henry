@@ -48,7 +48,7 @@ function capToFront(s) {
   };
   return upperCasedString + newString;
 };
-console.log(capToFront("soyHENRY"));
+
 
 function asAmirror(str) {
   //La función recibe una frase. 
