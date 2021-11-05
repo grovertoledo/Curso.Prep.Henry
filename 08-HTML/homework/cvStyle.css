@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin:0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #ddd;
+  text-align: justify;
+  margin: 40px 110px;
+}
+body section {
+  margin: 20px auto;
+}
+section p {
+  margin: 10px 0 0 10px;
+}
+.main-info {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.main-info .title-intro {
+  display: grid;
+  margin: 30px 40px 0 0;
+}
+.main-info .title-intro .title {
+  justify-self: center;
+}
+.main-info .photo {
+  display: grid;
+}
+.main-info img {
+  width: 150px;
+  margin: 5px;
+  padding: 0 0px 4px;
+  border: 5px solid black;
+}
+.lists {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.lists .skills {
+  display: grid;
+  justify-self: center;
+}
+.lists .hobbies {
+  display: grid;
+  justify-self: start;
+  margin: auto 25px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
